@@ -42,7 +42,7 @@ export default function App() {
             className="text-3xl tracking-tight text-foreground"
             style={{ fontFamily: "'Instrument Serif', serif" }}
           >
-            Mohammad Arif Hossen<sup className="text-xs">®</sup>
+            Arif<sup className="text-xs">®</sup>
           </span>
         </div>
 
@@ -70,7 +70,7 @@ export default function App() {
                 className="text-4xl sm:text-6xl md:text-7xl font-normal leading-tight tracking-tight text-foreground"
                 style={{ fontFamily: "'Instrument Serif', serif" }}
               >
-                Hire Mohammad Arif Hossen <br /> to unlock full potential
+                Hire me to unlock <br /> My full potential
               </h2>
               
               {!showEmail ? (
@@ -100,14 +100,13 @@ export default function App() {
                 className="animate-fade-rise max-w-7xl text-5xl font-normal leading-[0.95] tracking-[-2.46px] text-foreground sm:text-7xl md:text-8xl"
                 style={{ fontFamily: "'Instrument Serif', serif" }}
               >
-                Mohammad Arif Hossen: <br className="hidden sm:block" />
                 Where <em className="not-italic text-muted-foreground">dreams</em> rise <br className="hidden sm:block" />
                 through the <em className="not-italic text-muted-foreground">silence.</em>
               </h1>
 
               <p className="animate-fade-rise-delay mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-                I am Mohammad Arif Hossen, a digital creator designing tools for deep thinkers, bold creators, and quiet rebels. 
-                Amid the chaos, I build digital spaces for sharp focus and inspired work.
+                We're designing tools for deep thinkers, bold creators, and quiet rebels. 
+                Amid the chaos, we build digital spaces for sharp focus and inspired work.
               </p>
 
               <button className="liquid-glass animate-fade-rise-delay-2 mt-12 cursor-pointer rounded-full px-14 py-5 text-base font-medium text-foreground transition-transform hover:scale-[1.03]">
@@ -117,37 +116,6 @@ export default function App() {
           )}
         </section>
       </div>
-
-      {/* SEO Content Section (Bio) */}
-      <section className="relative z-10 mx-auto max-w-4xl px-8 py-24 text-center md:text-left">
-        <div className="liquid-glass rounded-3xl p-12 backdrop-blur-xl">
-          <h2 
-            className="mb-8 text-4xl font-normal text-foreground"
-            style={{ fontFamily: "'Instrument Serif', serif" }}
-          >
-            About Mohammad Arif Hossen
-          </h2>
-          <div className="space-y-6 text-lg leading-relaxed text-muted-foreground">
-            <p>
-              Mohammad Arif Hossen is a visionary digital creator and strategic developer based in Bangladesh. 
-              With a focus on building impactful digital experiences, he combines technical expertise with 
-              creative vision to deliver solutions that resonate.
-            </p>
-            <p>
-              His work at <a href="https://mearif.pro.bd/" className="text-foreground underline underline-offset-4">mearif.pro.bd</a> 
-              showcases a commitment to excellence and a passion for pushing the boundaries of what's possible in the digital realm. 
-              Whether it's designing intuitive user interfaces or developing robust backend systems, Mohammad Arif Hossen 
-              is dedicated to crafting digital spaces that inspire and empower.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="relative z-10 border-t border-white/10 py-12 text-center text-sm text-muted-foreground">
-        <p>© {new Date().getFullYear()} Mohammad Arif Hossen. All rights reserved.</p>
-        <p className="mt-2">Official Domain: <a href="https://mearif.pro.bd/" className="hover:text-foreground">mearif.pro.bd</a></p>
-      </footer>
     </main>
   );
 }
